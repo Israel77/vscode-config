@@ -1,0 +1,108 @@
+{
+    // Only for VSCode, Codium doesn't have built-in telemetry
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    // Editor settings
+    "workbench.colorTheme": "To on Dark",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    // Vim emulation settings
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // Find actions
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s",
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        // Save actions
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.files.saveFiles"
+            ]
+        },
+        // Close actions
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeWindow"
+            ]
+        },
+        // Formatting
+        {
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        // Other
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "z"
+            ],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        }
+    ],
+    "vim.leader": "<Space>",
+    "window.titleBarStyle": "custom"
+}
