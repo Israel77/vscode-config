@@ -32,6 +32,16 @@
                 "workbench.action.gotoSymbol"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
         // Save actions
         {
             "before": [
@@ -83,6 +93,28 @@
                 "editor.action.formatDocument"
             ]
         },
+        // Code actions
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        // Java related stuff
+        {
+            "before": [
+                "<leader>",
+                "j",
+                "c"
+            ],
+            "commands": [
+                "java.view.menus.file.newJavaClass"
+            ]
+        },
         // Other
         {
             "before": [
@@ -96,6 +128,15 @@
         },
         {
             "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        {
+            "before": [
                 "K"
             ],
             "commands": [
@@ -104,5 +145,6 @@
         }
     ],
     "vim.leader": "<Space>",
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "redhat.telemetry.enabled": true
 }
