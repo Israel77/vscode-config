@@ -146,5 +146,7 @@
     ],
     "vim.leader": "<Space>",
     "window.titleBarStyle": "custom",
-    "redhat.telemetry.enabled": true
+    // Nothing against Red Hat, but I'd rather not use this at work
+    "redhat.telemetry.enabled": false,
+    "git.autofetch": true
 }
