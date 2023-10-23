@@ -35,11 +35,19 @@
         {
             "before": [
                 "<leader>",
-                "p",
-                "f"
+                "<Space>"
             ],
             "commands": [
                 "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.files.action.focusFilesExplorer"
             ]
         },
         // Save actions
@@ -148,5 +156,6 @@
     "window.titleBarStyle": "custom",
     // Nothing against Red Hat, but I'd rather not use this at work
     "redhat.telemetry.enabled": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "java.maven.updateSnapshots": true
 }
