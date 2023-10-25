@@ -152,6 +152,18 @@
             ]
         }
     ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+    ],
     "vim.leader": "<Space>",
     "window.titleBarStyle": "custom",
     // Nothing against Red Hat, but I'd rather not use this at work
