@@ -7,6 +7,7 @@
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
     "editor.formatOnSave": true,
     "editor.fontLigatures": true,
     // Vim emulation settings
@@ -169,5 +170,6 @@
     // Nothing against Red Hat, but I'd rather not use this at work
     "redhat.telemetry.enabled": false,
     "git.autofetch": true,
-    "java.maven.updateSnapshots": true
+    "java.maven.updateSnapshots": true,
+    "workbench.iconTheme": "icons"
 }
