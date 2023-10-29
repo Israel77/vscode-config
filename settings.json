@@ -113,6 +113,25 @@
                 "editor.action.quickFix"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "s"
+            ],
+            "commands": [
+                "editor.action.sourceAction"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
         // Java related stuff
         {
             "before": [
@@ -122,6 +141,28 @@
             ],
             "commands": [
                 "java.view.menus.file.newJavaClass"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j",
+                "t",
+                "g"
+            ],
+            "commands": [
+                "java.test.generateTests"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j",
+                "t",
+                "t"
+            ],
+            "commands": [
+                "java.test.goToTest"
             ]
         },
         // Other
