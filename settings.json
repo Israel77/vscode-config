@@ -214,4 +214,5 @@
     "java.maven.updateSnapshots": true,
     "workbench.iconTheme": "icons",
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
+    "quarkus.tools.alwaysShowWelcomePage": false
 }
