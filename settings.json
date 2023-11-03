@@ -212,5 +212,6 @@
     "redhat.telemetry.enabled": false,
     "git.autofetch": true,
     "java.maven.updateSnapshots": true,
-    "workbench.iconTheme": "file-icons"
+    "workbench.iconTheme": "icons",
+    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
 }
