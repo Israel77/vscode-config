@@ -132,6 +132,29 @@
                 "editor.action.rename"
             ]
         },
+        // Editor folding
+        {
+            "before": [
+                "<leader>",
+                "h",
+                "["
+            ],
+            "commands": [
+                "editor.fold"
+            ],
+            "when": "editorTextFocus && foldingEnabled"
+        },
+        {
+            "before": [
+                "<leader>",
+                "h",
+                "]"
+            ],
+            "commands": [
+                "editor.unfold"
+            ],
+            "when": "editorTextFocus && foldingEnabled"
+        },
         // Java related stuff
         {
             "before": [
