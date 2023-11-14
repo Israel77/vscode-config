@@ -48,9 +48,21 @@
                 "e"
             ],
             "commands": [
+                // "workbench.action.toggleSidebarVisibility",
                 "workbench.files.action.focusFilesExplorer"
-            ]
+            ],
+            "when": "editorTextFocus"
         },
+        // {
+        //     "before": [
+        //         "<leader>",
+        //         "e"
+        //     ],
+        //     "commands": [
+        //         "workbench.action.toggleSidebarVisibility",
+        //     ],
+        //     "when": "filesExplorerFocus"
+        // },
         // Save actions
         {
             "before": [
@@ -188,6 +200,47 @@
                 "java.test.goToTest"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "j",
+                "r"
+            ],
+            "commands": [
+                "java.debug.runJavaFile"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "d"
+            ],
+            "commands": [
+                "java.debug.runJavaFile"
+            ]
+        },
+        // Debugging
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "commands": [
+                "workbench.action.debug.start"
+            ],
+            "when": "debuggersAvailable && debugState == inactive"
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "editor.debug.action.toggleBreakpoint"
+            ],
+            "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
+        },
+        // Other
         // Other
         {
             "before": [
