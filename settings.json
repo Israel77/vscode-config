@@ -212,6 +212,7 @@
         },
         {
             "before": [
+                "<leader>",
                 "j",
                 "d"
             ],
@@ -291,5 +292,8 @@
     "workbench.iconTheme": "icons",
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "quarkus.tools.alwaysShowWelcomePage": false,
-    "vim.foldfix": true
+    "vim.foldfix": true,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
+    "workbench.editor.enablePreviewFromQuickOpen": true,
 }
