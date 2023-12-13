@@ -243,7 +243,6 @@
             "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
         },
         // Other
-        // Other
         {
             "before": [
                 "<leader>",
@@ -299,4 +298,18 @@
     "java.format.enabled": true,
     "workbench.editor.enablePreviewFromQuickOpen": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "java.completion.favoriteStaticMembers": [
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*",
+        "io.restassured.RestAssured.*",
+        "io.restassured.matcher.RestAssuredMatchers.*",
+        "org.hamcrest.Matchers.*"
+    ],
 }
