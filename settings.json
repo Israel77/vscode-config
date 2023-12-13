@@ -8,6 +8,7 @@
     "editor.minimap.enabled": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideStatusBar": false,
+    "zenMode.fullScreen": false,
     "editor.formatOnSave": true,
     "editor.fontLigatures": true,
     // Vim emulation settings
@@ -217,7 +218,7 @@
                 "d"
             ],
             "commands": [
-                "java.debug.runJavaFile"
+                "java.debug.debugJavaFile"
             ]
         },
         // Debugging
@@ -293,7 +294,9 @@
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "quarkus.tools.alwaysShowWelcomePage": false,
     "vim.foldfix": true,
-    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
-    "java.format.settings.profile": "GoogleStyle",
+    // "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    // "java.format.settings.profile": "GoogleStyle",
+    "java.format.enabled": true,
     "workbench.editor.enablePreviewFromQuickOpen": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
 }
