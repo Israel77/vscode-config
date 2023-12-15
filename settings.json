@@ -1,7 +1,6 @@
 {
     // Only for VSCode, Codium doesn't have built-in telemetry
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     // Editor settings
     "workbench.colorTheme": "To on Dark",
     "editor.lineNumbers": "relative",
@@ -243,6 +242,7 @@
             "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
         },
         // Other
+        // Other
         {
             "before": [
                 "<leader>",
@@ -293,11 +293,9 @@
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "quarkus.tools.alwaysShowWelcomePage": false,
     "vim.foldfix": true,
-    // "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
-    // "java.format.settings.profile": "GoogleStyle",
-    "java.format.enabled": true,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
     "workbench.editor.enablePreviewFromQuickOpen": true,
-    "terminal.integrated.defaultProfile.linux": "zsh",
     "java.completion.favoriteStaticMembers": [
         "org.junit.Assert.*",
         "org.junit.Assume.*",
