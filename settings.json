@@ -149,7 +149,7 @@
             "before": [
                 "<leader>",
                 "h",
-                "["
+                "]"
             ],
             "commands": [
                 "editor.fold"
@@ -160,7 +160,7 @@
             "before": [
                 "<leader>",
                 "h",
-                "]"
+                "["
             ],
             "commands": [
                 "editor.unfold"
