@@ -1,16 +1,26 @@
 {
+    //#region telemetry
     // Only for VSCode, Codium doesn't have built-in telemetry
     "telemetry.telemetryLevel": "off",
-    // Editor settings
+    // Nothing against Red Hat, but I'd rather not use this at work
+    "redhat.telemetry.enabled": false,
+    //#endregion
+    //#region Editor settings
+    "window.titleBarStyle": "custom",
     "workbench.colorTheme": "To on Dark",
+    "workbench.iconTheme": "file-icons-colourless",
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    // Custom zen mode
     "zenMode.hideLineNumbers": false,
     "zenMode.hideStatusBar": false,
     "zenMode.fullScreen": false,
-    "editor.formatOnSave": true,
-    "editor.fontLigatures": true,
-    // Vim emulation settings
+    //#endregion
+    //#region Vim emulation settings
     "vim.normalModeKeyBindingsNonRecursive": [
         // Find actions
         {
@@ -284,18 +294,16 @@
         },
     ],
     "vim.leader": "<Space>",
-    "window.titleBarStyle": "custom",
-    // Nothing against Red Hat, but I'd rather not use this at work
-    "redhat.telemetry.enabled": false,
-    "git.autofetch": true,
-    "java.maven.updateSnapshots": true,
-    "workbench.iconTheme": "icons",
-    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
-    "quarkus.tools.alwaysShowWelcomePage": false,
     "vim.foldfix": true,
+    //#endregion
+    //#region Git stuff
+    "git.autofetch": true,
+    //#endregion
+    //#region Java stuff
+    "java.maven.updateSnapshots": true,
+    "quarkus.tools.alwaysShowWelcomePage": false,
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
-    "workbench.editor.enablePreviewFromQuickOpen": true,
     "java.completion.favoriteStaticMembers": [
         "org.junit.Assert.*",
         "org.junit.Assume.*",
@@ -310,4 +318,8 @@
         "io.restassured.matcher.RestAssuredMatchers.*",
         "org.hamcrest.Matchers.*"
     ],
+    //#endregion
+    //#region Terminal and shell stuff
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    //#endregion
 }
