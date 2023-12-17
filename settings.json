@@ -15,6 +15,7 @@
     "editor.formatOnSave": true,
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "editor.inlayHints.enabled": "offUnlessPressed",
     // Custom zen mode
     "zenMode.hideLineNumbers": false,
     "zenMode.hideStatusBar": false,
@@ -300,10 +301,6 @@
     "git.autofetch": true,
     //#endregion
     //#region Java stuff
-    "java.maven.updateSnapshots": true,
-    "quarkus.tools.alwaysShowWelcomePage": false,
-    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
-    "java.format.settings.profile": "GoogleStyle",
     "java.completion.favoriteStaticMembers": [
         "org.junit.Assert.*",
         "org.junit.Assume.*",
@@ -318,6 +315,11 @@
         "io.restassured.matcher.RestAssuredMatchers.*",
         "org.hamcrest.Matchers.*"
     ],
+    "java.maven.updateSnapshots": true,
+    "quarkus.tools.alwaysShowWelcomePage": false,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
+    "java.inlayHints.parameterNames.enabled": "all",
     //#endregion
     //#region Terminal and shell stuff
     "terminal.integrated.defaultProfile.linux": "zsh",
