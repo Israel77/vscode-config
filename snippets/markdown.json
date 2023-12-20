@@ -1,0 +1,7 @@
+{
+    "Changelog entry": {
+        "prefix": ["change"],
+        "body": "## [${1:0}.${2:0}.${3:0}] ${4:dd}/${5:mm}/${6:yyyy}\n## ${7:Adicionado}\n### ${8:Descrição}",
+        "description": "Uma entrada no changelog indicando as modificações." 
+    }
+}
