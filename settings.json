@@ -324,4 +324,5 @@
     //#region Terminal and shell stuff
     "terminal.integrated.defaultProfile.linux": "zsh",
     //#endregion
+    "window.zoomLevel": 1,
 }
