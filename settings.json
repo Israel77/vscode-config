@@ -8,7 +8,7 @@
     //#region Editor settings
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "To on Dark",
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "icons",
     "workbench.editor.enablePreviewFromQuickOpen": true,
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.lineNumbers": "relative",
