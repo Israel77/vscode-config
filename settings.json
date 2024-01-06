@@ -194,18 +194,6 @@
                 "<leader>",
                 "j",
                 "t",
-                "g"
-            ],
-            "commands": [
-                "java.test.generateTests"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "j",
-                "t",
-                "t"
             ],
             "commands": [
                 "java.test.goToTest"
