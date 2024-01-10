@@ -8,7 +8,7 @@
     //#region Editor settings
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "To on Dark",
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "icons",
     "workbench.editor.enablePreviewFromQuickOpen": true,
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.lineNumbers": "relative",
@@ -53,28 +53,17 @@
                 "workbench.action.quickOpen"
             ]
         },
+        // Workbench navigation
         {
             "before": [
                 "<leader>",
                 "e"
             ],
             "commands": [
-                // "workbench.action.toggleSidebarVisibility",
                 "workbench.files.action.focusFilesExplorer"
             ],
             "when": "editorTextFocus"
         },
-        // {
-        //     "before": [
-        //         "<leader>",
-        //         "e"
-        //     ],
-        //     "commands": [
-        //         "workbench.action.toggleSidebarVisibility",
-        //     ],
-        //     "when": "filesExplorerFocus"
-        // },
-        // Save actions
         {
             "before": [
                 "<leader>",
@@ -194,18 +183,6 @@
                 "<leader>",
                 "j",
                 "t",
-                "g"
-            ],
-            "commands": [
-                "java.test.generateTests"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "j",
-                "t",
-                "t"
             ],
             "commands": [
                 "java.test.goToTest"
@@ -252,7 +229,25 @@
             ],
             "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
         },
-        // Other
+        {
+            "description": "Vai para próximo marcador (info, erro, warning)",
+            "before": [
+                "]",
+                "m"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "m"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
         // Other
         {
             "before": [
@@ -296,6 +291,7 @@
     ],
     "vim.leader": "<Space>",
     "vim.foldfix": true,
+    "vim.showMarksInGutter": true,
     //#endregion
     //#region Git stuff
     "git.autofetch": true,
