@@ -7,8 +7,6 @@
     //#endregion
     //#region Editor settings
     "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "To on Dark",
-    "workbench.iconTheme": "icons",
     "workbench.editor.enablePreviewFromQuickOpen": true,
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.lineNumbers": "relative",
@@ -23,6 +21,91 @@
     //#endregion
     //#region Vim emulation settings
     "vim.normalModeKeyBindingsNonRecursive": [
+        // Motion between groups using <C-h> and <C-l>
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                "workbench.action.focusNextGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "commands": [
+                "workbench.action.focusPreviousGroup"
+            ]
+        },
+        // Motion between tabs/buffers with H and L
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "workbench.action.nextEditorInGroup"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "commands": [
+                "workbench.action.previousEditorInGroup"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.nextEditorInGroup"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.previousEditorInGroup"
+            ]
+        },
+        // Change view width and height with ctrl + arrows
+        {
+            "before": [
+                "<C-Up>"
+            ],
+            "commands": [
+                "workbench.action.increaseViewHeight"
+            ]
+        },
+        {
+            "before": [
+                "<C-Down>"
+            ],
+            "commands": [
+                "workbench.action.decreaseViewHeight"
+            ]
+        },
+        {
+            "before": [
+                "<C-Right>"
+            ],
+            "commands": [
+                "workbench.action.increaseViewWidth"
+            ]
+        },
+        {
+            "before": [
+                "<C-Left>"
+            ],
+            "commands": [
+                "workbench.action.decreaseViewWidth"
+            ]
+        },
         // Find actions
         {
             "before": [
@@ -321,4 +404,6 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     //#endregion
     "window.zoomLevel": 1,
+    "workbench.iconTheme": "icons",
+    "workbench.colorTheme": "To on Dark",
 }
