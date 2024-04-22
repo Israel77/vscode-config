@@ -13,6 +13,8 @@
     "editor.formatOnSave": true,
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 4,
     "editor.inlayHints.enabled": "offUnlessPressed",
     // Custom zen mode
     "zenMode.hideLineNumbers": false,
@@ -483,4 +485,20 @@
     //#endregion
     "window.zoomLevel": 1,
     "workbench.colorTheme": "To on Dark",
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.indentSize": 4,
+        "editor.detectIndentation": false
+    },
+    "[jsonc]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.indentSize": 4,
+        "editor.detectIndentation": false
+    }
 }
